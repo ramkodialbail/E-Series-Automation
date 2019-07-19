@@ -1,0 +1,18 @@
+discovery:
+    # enter one or more mgmt Networks in CIDR format, one per line
+    # e.g. 
+    # XX.X.X.X/22
+    # XX.XX.XXX.0/24
+    
+
+exclude:
+    # If you want to exlcude an array - enter wwn of array, one per line
+    # e.g. 
+    # 60080E5000296CF80000000058407249
+    
+
+suppress:
+    # If you want to suppress fault notification for an array - enter Name of array, one per line
+    # e.g.
+    # Myarray1
+    # Myarray-5760
